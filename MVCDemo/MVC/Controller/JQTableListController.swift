@@ -35,12 +35,15 @@ class JQTableListController: UIViewController{
         registerCell()
     }
     
+    //override
     func registerCell(){
         JQTableListCell.register(for: self.tableView)
     }
 
     func createTable() -> UITableView{
-        let tableView = UITableView(frame: self.view.bounds)
+        var frame = self.view.bounds
+        frame.size.height = self.view.bounds.height - 64
+        let tableView = UITableView(frame:frame)
         tableView.backgroundColor = .white
         tableView.delegate = self
         tableView.tableFooterView = UIView(frame: .zero)

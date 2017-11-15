@@ -38,4 +38,9 @@ class JQDemoController: JQTableListController {
         }
         self.dataSource = ds
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vcl = KCTableDemoVCL()
+        self.navigationController?.pushViewController(vcl, animated: true)
+    }
 }

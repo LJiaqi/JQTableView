@@ -91,7 +91,7 @@ extension JQTableListDataSource: UITableViewDataSource {
         
         let cellType = self.tableView(tableView, cellClassForObject: object)
         
-        let identifier = cellType.JQIdentifier()
+        let identifier = cellType.cellIdentifier()
         
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
         

@@ -12,13 +12,19 @@ class JQDemoCell: JQTableListCell {
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+    createViews()
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override var reuseIdentifier: String?{
+    
+    func createViews() {
+        self.selectionStyle = .none
+    }
+    
+    open override class func cellIdentifier() -> String{
         return "JQTableListCell"
     }
     

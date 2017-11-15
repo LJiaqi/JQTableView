@@ -23,7 +23,7 @@ class JQTableListCell: UITableViewCell {
     }
     
     //override
-    open class func JQIdentifier() -> String{
+    open class func cellIdentifier() -> String{
         return "\(self)"
     }
     
@@ -33,7 +33,7 @@ class JQTableListCell: UITableViewCell {
     }
     
     open class func register(for tableView:UITableView)  {
-        tableView.register(self, forCellReuseIdentifier: self.JQIdentifier())
+        tableView.register(self, forCellReuseIdentifier: self.cellIdentifier())
     }
 
 }

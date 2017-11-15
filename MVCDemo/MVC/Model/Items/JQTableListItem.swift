@@ -11,6 +11,7 @@ import UIKit
 class JQTableListItem: NSObject {
     var cellHeight: CGFloat = 0
 
+    //override
     func cellType() -> JQTableListCell.Type{
         return JQTableListCell.self
     }

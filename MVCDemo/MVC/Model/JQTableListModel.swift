@@ -12,6 +12,7 @@ class JQTableListModel: NSObject {
     var items: [JQTableListItem] = []
     var sectionItems: [JQSectionItem] = []
     
+    //override
     open func loadItems(_ parameters : [String:Any]? = nil,
                         completion : @escaping ([String:Any]?)->Void ,
                         failure : @escaping (Error)->Void){
