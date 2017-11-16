@@ -40,7 +40,7 @@ class JQDemoController: JQTableListController {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vcl = KCTableDemoVCL()
+        let vcl = KCCourseListVCL()
         self.navigationController?.pushViewController(vcl, animated: true)
     }
 }
