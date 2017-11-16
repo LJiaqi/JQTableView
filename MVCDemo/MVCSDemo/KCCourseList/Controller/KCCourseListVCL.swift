@@ -39,4 +39,16 @@ class KCCourseListVCL: KCTableVCL {
             self.dealError(error)
         }
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        let obj = self.dataSource?.tableView(tableView, itemForRowAt: indexPath)
+        if let item = obj as? KCCourseListItem{
+            let vc = KCCourseDetailVCL()
+            vc.currentCourseId = "\(item.courseId)"
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+    }
 }

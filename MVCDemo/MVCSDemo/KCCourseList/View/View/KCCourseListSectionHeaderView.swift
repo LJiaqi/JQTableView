@@ -62,7 +62,5 @@ class KCCourseListSectionHeaderView: JQSectionView {
             self.lineView.frame = lineFrame
             self.lineView.center.x = self.titleLabel.center.x
         }
-        
-        
     }
 }

@@ -15,9 +15,14 @@ class KCCourseListItem: JQTableListItem {
     var dateStr: String = "最近直播"
     var progress: Float = 0
     var subTitleStr :String = ""
+    var courseId :Int = 0
     
     init(with courseSystem:CourseSystem) {
         super.init()
+        
+        if let courId = courseSystem.courseId {
+            courseId = courId
+        }
         cellHeight = 155
         titleStr = courseSystem.title
         if let nextLesson = courseSystem.nextLesson,
