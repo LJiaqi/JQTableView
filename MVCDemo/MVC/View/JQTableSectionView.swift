@@ -1,5 +1,5 @@
 //
-//  JQSectionView.swift
+//  JQTableSectionView.swift
 //  MVCDemo
 //
 //  Created by lijiaqi on 2017/11/12.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JQSectionView: UIView {
+class JQTableSectionView: UIView {
 
     final var _object: JQTableListSectionItem?
     

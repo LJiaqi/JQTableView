@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JQSectionFooterView: JQSectionView {
+class JQSectionFooterView: JQTableSectionView {
     var titleLabel: UILabel!
     
     override func awakeFromNib() {

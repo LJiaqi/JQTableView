@@ -1,5 +1,5 @@
 //
-//  KCCourseListVCL.swift
+//  JQCourseListVCL.swift
 //  MVCDemo
 //
 //  Created by 李佳琪 on 2017/11/15.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class KCCourseListVCL: KCTableVCL {
+class JQCourseListVCL: JQTableVCL {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.model = KCCourseListModel()
+        self.model = JQCourseListModel()
         self.title = "课程列表"
         addHeaderView()
         
@@ -20,14 +20,14 @@ class KCCourseListVCL: KCTableVCL {
     }
     
     func addHeaderView() {
-        let headerView :KCCourseListHeaderView = KCCourseListHeaderView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: 56))
+        let headerView :JQCourseListHeaderView = JQCourseListHeaderView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: 56))
         headerView.title = title
         self.tableView.tableHeaderView = headerView
     }
 
     override func registerCell() {
         super.registerCell()
-        KCCourseListCell.register(for: self.tableView)
+        JQCourseListCell.register(for: self.tableView)
     }
     
     //子类重写，加载数据
@@ -44,8 +44,8 @@ class KCCourseListVCL: KCTableVCL {
         
         
         let obj = self.dataSource?.tableView(tableView, itemForRowAt: indexPath)
-        if let item = obj as? KCCourseListItem{
-            let vc = KCCourseDetailVCL()
+        if let item = obj as? JQCourseListItem{
+            let vc = JQCourseDetailVCL()
             vc.currentCourseId = "\(item.courseId)"
             self.navigationController?.pushViewController(vc, animated: true)
         }

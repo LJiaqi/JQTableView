@@ -23,8 +23,8 @@ class JQTableListSectionItem: NSObject {
         self.type = type
     }
     
-    func viewType() -> JQSectionView.Type{
-        return JQSectionView.self
+    func viewType() -> JQTableSectionView.Type{
+        return JQTableSectionView.self
     }
     
 }

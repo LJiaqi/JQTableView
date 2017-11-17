@@ -1,5 +1,5 @@
 //
-//  KCTableModel.swift
+//  JQTableModel.swift
 //  MVCDemo
 //
 //  Created by 李佳琪 on 2017/11/14.
@@ -12,7 +12,7 @@ import ObjectMapper
 import AlamofireObjectMapper
 import SwiftyJSON
 
-class KCTableModel: JQTableListModel {
+class JQTableModel: JQTableListModel {
 
 //    open func wrapperItems<T: Mappable>(respose :T) -> [Any]{
 //        return []

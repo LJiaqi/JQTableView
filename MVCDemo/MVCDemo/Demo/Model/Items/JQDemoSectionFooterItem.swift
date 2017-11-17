@@ -11,7 +11,7 @@ import UIKit
 class JQDemoSectionFooterItem: JQTableListSectionItem {
     var title: String?
     
-    override func viewType() -> JQSectionView.Type {
+    override func viewType() -> JQTableSectionView.Type {
         return JQSectionFooterView.self
     }
 }

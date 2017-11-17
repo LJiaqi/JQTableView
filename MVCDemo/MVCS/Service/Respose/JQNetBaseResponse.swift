@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class KCNetResponse<T>: Mappable where T:Mappable{
+class JQNetResponse<T>: Mappable where T:Mappable{
     var requestId:String?
     var errorCode:NSNumber?
     var errorMsg:String?
@@ -30,7 +30,7 @@ class KCNetResponse<T>: Mappable where T:Mappable{
     
 }
 
-class KCPage:Mappable{
+class JQPage:Mappable{
     var pageCount:NSNumber = 0 //总页数
     var pageSize:NSNumber = 30 //查询每页的数量
     var totalCount:NSNumber = 0 //总数量
@@ -52,7 +52,7 @@ class KCPage:Mappable{
     
     var pageNum:NSNumber = 0 //请求传的，返回没有
     
-    func updatePage(p:KCPage){
+    func updatePage(p:JQPage){
         pageCount = p.pageCount
         totalCount = p.totalCount
         pageSize = p.pageSize

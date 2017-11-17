@@ -1,5 +1,5 @@
 //
-//  KCCourseDetailItem.swift
+//  JQCourseDetailItem.swift
 //  MVCDemo
 //
 //  Created by 李佳琪 on 2017/11/16.
@@ -10,15 +10,13 @@ import UIKit
 import Foundation
 import ObjectMapper
 
-class KCCourseDetailItem: JQTableListItem {
+class JQCourseDetailItem: JQTableListItem {
     
     var numStr :String?
     var titleStr :String?
     var subTitleStr :String?
     var timeStr :String?
     var commentStr :String?
-    
-    
     
     init(with lesson:Lesson) {
         super.init()
@@ -32,10 +30,10 @@ class KCCourseDetailItem: JQTableListItem {
             commentStr = "评价\(commentCount)"
         }
         
-        timeStr = KCUtils.dateFormatFromTimeStamp(timeStamp: TimeInterval(exactly: lesson.begin!)!)
+        timeStr = JQUtils.dateFormatFromTimeStamp(timeStamp: TimeInterval(exactly: lesson.begin!/1000)!)
     }
     
     override func cellType() -> JQTableListCell.Type{
-        return KCCourseDetailCell.self
+        return JQCourseDetailCell.self
     }
 }

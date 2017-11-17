@@ -1,5 +1,5 @@
 //
-//  KCTableVCL.swift
+//  JQTableVCL.swift
 //  MVCDemo
 //
 //  Created by 李佳琪 on 2017/11/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KCTableVCL: JQTableListController {
+class JQTableVCL: JQTableListController {
 
     var titleStr: String?
     override func viewDidLoad() {

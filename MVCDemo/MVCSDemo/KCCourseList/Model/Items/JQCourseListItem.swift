@@ -1,5 +1,5 @@
 //
-//  KCTableItem.swift
+//  JQTableItem.swift
 //  MVCDemo
 //
 //  Created by 李佳琪 on 2017/11/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KCCourseListItem: JQTableListItem {
+class JQCourseListItem: JQTableListItem {
 
     
     var titleStr: String?
@@ -25,12 +25,13 @@ class KCCourseListItem: JQTableListItem {
         }
         cellHeight = 155
         titleStr = courseSystem.title
+        
         if let nextLesson = courseSystem.nextLesson,
             let beginTime = nextLesson.begin,
             let taughtNum  = courseSystem.taughtNum,
             let lessonCount = courseSystem.lessonCount{
             
-            dateStr = "最近直播：\(KCUtils.dateFormatFromTimeStamp(timeStamp: TimeInterval(beginTime/1000)))"
+            dateStr = "最近直播：\(JQUtils.dateFormatFromTimeStamp(timeStamp: TimeInterval(beginTime/1000)))"
             progress = Float(taughtNum)/Float(lessonCount)
             if let title = nextLesson.title{
                 subTitleStr = title
@@ -39,7 +40,7 @@ class KCCourseListItem: JQTableListItem {
     }
 
     override func cellType() -> JQTableListCell.Type{
-        return KCCourseListCell.self
+        return JQCourseListCell.self
     }
 
 

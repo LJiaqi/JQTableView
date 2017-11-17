@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JQSectionHeaderView: JQSectionView {
+class JQSectionHeaderView: JQTableSectionView {
     var titleLabel: UILabel!
     
     override func awakeFromNib() {

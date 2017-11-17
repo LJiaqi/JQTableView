@@ -1,5 +1,5 @@
 //
-//  KCTableCell.swift
+//  JQTableCell.swift
 //  MVCDemo
 //
 //  Created by 李佳琪 on 2017/11/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KCTableCell: JQTableListCell {
+class JQTableCell: JQTableListCell {
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

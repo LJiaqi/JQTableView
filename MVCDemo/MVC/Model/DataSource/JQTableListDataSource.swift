@@ -52,7 +52,7 @@ class JQTableListDataSource: NSObject {
     }
     
     //Section 的 View Type
-    func tableView(_ tableView: UITableView, sectionViewClassForObject object: JQTableListSectionItem) -> JQSectionView.Type {
+    func tableView(_ tableView: UITableView, sectionViewClassForObject object: JQTableListSectionItem) -> JQTableSectionView.Type {
         return object.viewType()
     }
     

@@ -1,5 +1,5 @@
 //
-//  KCCourseListSectionHeaderView.swift
+//  JQCourseListSectionHeaderView.swift
 //  MVCDemo
 //
 //  Created by 李佳琪 on 2017/11/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KCCourseListSectionHeaderView: JQSectionView {
+class JQCourseListSectionHeaderView: JQTableSectionView {
 
     var titleLabel: UILabel!
     var lineView: UIView!
@@ -42,7 +42,7 @@ class KCCourseListSectionHeaderView: JQSectionView {
     override func setObject(_ obj: JQTableListSectionItem) {
         super.setObject(obj)
         
-        if let obj = obj as? KCCourseListSectionHeaderItem {
+        if let obj = obj as? JQCourseListSectionHeaderItem {
             titleLabel.text = obj.title
         }
         setNeedsLayout()
@@ -51,7 +51,7 @@ class KCCourseListSectionHeaderView: JQSectionView {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        if let obj = self.item as? KCCourseListSectionHeaderItem {
+        if let obj = self.item as? JQCourseListSectionHeaderItem {
             var titleFrame = self.titleLabel.frame
             titleFrame.origin.x = 20
             self.titleLabel.frame = titleFrame

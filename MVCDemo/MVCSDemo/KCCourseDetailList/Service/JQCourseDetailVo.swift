@@ -1,5 +1,5 @@
 //
-//  KCMyCourseDetailVo.swift
+//  JQMyCourseDetailVo.swift
 //  MVCDemo
 //
 //  Created by 李佳琪 on 2017/11/16.
@@ -9,7 +9,7 @@
 import UIKit
 import ObjectMapper
 
-class KCCourseDetailVo: Mappable{
+class JQCourseDetailVo: Mappable{
     var courseBegin:Int64?
     var courseFinish:Int64?
     var courseId:Int!

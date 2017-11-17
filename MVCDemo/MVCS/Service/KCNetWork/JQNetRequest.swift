@@ -1,5 +1,5 @@
 //
-//  KCNetRequest.swift
+//  JQNetRequest.swift
 //  KaoChong
 //
 //  Created by kai zhou on 22/02/2017.
@@ -9,11 +9,11 @@
 import Foundation
 import Alamofire
 
-@objc class KCNetRequest: NetRequest {
+@objc class JQNetRequest: NetRequest {
     
     override func defaultParams() -> [String: Any] {
         
-        return KCNetRequest.publicRequestParamsDict()
+        return JQNetRequest.publicRequestParamsDict()
         
     }
     

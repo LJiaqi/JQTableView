@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		080A679C1FBADCF00098AD59 /* KCTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A679B1FBADCF00098AD59 /* KCTableModel.swift */; };
-		080A679E1FBADE0D0098AD59 /* KCTableVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A679D1FBADE0D0098AD59 /* KCTableVCL.swift */; };
-		080A67A21FBAFB320098AD59 /* KCNetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A67A01FBAFB320098AD59 /* KCNetRequest.swift */; };
+		080A679C1FBADCF00098AD59 /* JQTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A679B1FBADCF00098AD59 /* JQTableModel.swift */; };
+		080A679E1FBADE0D0098AD59 /* JQTableVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A679D1FBADE0D0098AD59 /* JQTableVCL.swift */; };
+		080A67A21FBAFB320098AD59 /* JQNetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A67A01FBAFB320098AD59 /* JQNetRequest.swift */; };
 		080A67A31FBAFB320098AD59 /* NetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A67A11FBAFB320098AD59 /* NetRequest.swift */; };
-		080A67A51FBB02A40098AD59 /* KCNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A67A41FBB02A40098AD59 /* KCNetworkService.swift */; };
+		080A67A51FBB02A40098AD59 /* JQNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A67A41FBB02A40098AD59 /* JQNetworkService.swift */; };
 		080A67A81FBB06C10098AD59 /* ClassDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A67A71FBB06C10098AD59 /* ClassDetailResponse.swift */; };
-		080A67AA1FBB073D0098AD59 /* KCNetBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A67A91FBB073D0098AD59 /* KCNetBaseResponse.swift */; };
-		08ABBE841FBBE3250011CA78 /* KCTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBE831FBBE3250011CA78 /* KCTableCell.swift */; };
+		080A67AA1FBB073D0098AD59 /* JQNetBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A67A91FBB073D0098AD59 /* JQNetBaseResponse.swift */; };
+		08ABBE841FBBE3250011CA78 /* JQTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBE831FBBE3250011CA78 /* JQTableCell.swift */; };
 		08ABBE9C1FBC3BB00011CA78 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBE9B1FBC3BB00011CA78 /* UIColorExtension.swift */; };
-		08ABBEAF1FBD350F0011CA78 /* KCCourseListVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEA31FBD350F0011CA78 /* KCCourseListVCL.swift */; };
-		08ABBEB01FBD350F0011CA78 /* KCCourseListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEA61FBD350F0011CA78 /* KCCourseListItem.swift */; };
-		08ABBEB11FBD350F0011CA78 /* KCCourseListSectionHeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEA71FBD350F0011CA78 /* KCCourseListSectionHeaderItem.swift */; };
-		08ABBEB21FBD350F0011CA78 /* KCCourseListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEA81FBD350F0011CA78 /* KCCourseListModel.swift */; };
-		08ABBEB31FBD350F0011CA78 /* KCCourseListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEAB1FBD350F0011CA78 /* KCCourseListCell.swift */; };
-		08ABBEB41FBD350F0011CA78 /* KCCourseListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEAD1FBD350F0011CA78 /* KCCourseListHeaderView.swift */; };
-		08ABBEB51FBD350F0011CA78 /* KCCourseListSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEAE1FBD350F0011CA78 /* KCCourseListSectionHeaderView.swift */; };
-		08ABBEB71FBD353E0011CA78 /* KCUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEB61FBD353E0011CA78 /* KCUtils.swift */; };
-		08ABBEC21FBD41190011CA78 /* KCCourseDetailVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEC11FBD41190011CA78 /* KCCourseDetailVCL.swift */; };
-		08ABBEC41FBD41400011CA78 /* KCCourseDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEC31FBD41400011CA78 /* KCCourseDetailModel.swift */; };
-		08ABBEC61FBD41AB0011CA78 /* KCCourseDetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEC51FBD41AB0011CA78 /* KCCourseDetailItem.swift */; };
-		08ABBEC81FBD41D40011CA78 /* KCCourseDetailSectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEC71FBD41D40011CA78 /* KCCourseDetailSectionItem.swift */; };
-		08ABBECA1FBD41F20011CA78 /* KCCourseDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEC91FBD41F20011CA78 /* KCCourseDetailCell.swift */; };
-		08ABBECC1FBD42160011CA78 /* KCCourseDetailSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBECB1FBD42160011CA78 /* KCCourseDetailSectionView.swift */; };
-		08ABBECE1FBD423E0011CA78 /* KCCouseDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBECD1FBD423E0011CA78 /* KCCouseDetailHeaderView.swift */; };
-		08ABBED01FBD86590011CA78 /* KCCourseDetailVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBECF1FBD86590011CA78 /* KCCourseDetailVo.swift */; };
-		08ABBED21FBD96980011CA78 /* KCCourseLessonsVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBED11FBD96980011CA78 /* KCCourseLessonsVo.swift */; };
-		08ABBED41FBD9F800011CA78 /* KCCourseDetailGroupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBED31FBD9F800011CA78 /* KCCourseDetailGroupItem.swift */; };
-		08ABBED61FBDA0230011CA78 /* KCCourseDetailGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBED51FBDA0230011CA78 /* KCCourseDetailGroupCell.swift */; };
+		08ABBEAF1FBD350F0011CA78 /* JQCourseListVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEA31FBD350F0011CA78 /* JQCourseListVCL.swift */; };
+		08ABBEB01FBD350F0011CA78 /* JQCourseListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEA61FBD350F0011CA78 /* JQCourseListItem.swift */; };
+		08ABBEB11FBD350F0011CA78 /* JQCourseListSectionHeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEA71FBD350F0011CA78 /* JQCourseListSectionHeaderItem.swift */; };
+		08ABBEB21FBD350F0011CA78 /* JQCourseListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEA81FBD350F0011CA78 /* JQCourseListModel.swift */; };
+		08ABBEB31FBD350F0011CA78 /* JQCourseListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEAB1FBD350F0011CA78 /* JQCourseListCell.swift */; };
+		08ABBEB41FBD350F0011CA78 /* JQCourseListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEAD1FBD350F0011CA78 /* JQCourseListHeaderView.swift */; };
+		08ABBEB51FBD350F0011CA78 /* JQCourseListSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEAE1FBD350F0011CA78 /* JQCourseListSectionHeaderView.swift */; };
+		08ABBEB71FBD353E0011CA78 /* JQUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEB61FBD353E0011CA78 /* JQUtils.swift */; };
+		08ABBEC21FBD41190011CA78 /* JQCourseDetailVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEC11FBD41190011CA78 /* JQCourseDetailVCL.swift */; };
+		08ABBEC41FBD41400011CA78 /* JQCourseDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEC31FBD41400011CA78 /* JQCourseDetailModel.swift */; };
+		08ABBEC61FBD41AB0011CA78 /* JQCourseDetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEC51FBD41AB0011CA78 /* JQCourseDetailItem.swift */; };
+		08ABBEC81FBD41D40011CA78 /* JQCourseDetailSectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEC71FBD41D40011CA78 /* JQCourseDetailSectionItem.swift */; };
+		08ABBECA1FBD41F20011CA78 /* JQCourseDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBEC91FBD41F20011CA78 /* JQCourseDetailCell.swift */; };
+		08ABBECC1FBD42160011CA78 /* JQCourseDetailSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBECB1FBD42160011CA78 /* JQCourseDetailSectionView.swift */; };
+		08ABBECE1FBD423E0011CA78 /* JQCouseDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBECD1FBD423E0011CA78 /* JQCouseDetailHeaderView.swift */; };
+		08ABBED01FBD86590011CA78 /* JQCourseDetailVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBECF1FBD86590011CA78 /* JQCourseDetailVo.swift */; };
+		08ABBED21FBD96980011CA78 /* JQCourseLessonsVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBED11FBD96980011CA78 /* JQCourseLessonsVo.swift */; };
+		08ABBED41FBD9F800011CA78 /* JQCourseDetailGroupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBED31FBD9F800011CA78 /* JQCourseDetailGroupItem.swift */; };
+		08ABBED61FBDA0230011CA78 /* JQCourseDetailGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABBED51FBDA0230011CA78 /* JQCourseDetailGroupCell.swift */; };
 		0B11CC321FB8406A003C9C4E /* JQTableListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11CC271FB8406A003C9C4E /* JQTableListController.swift */; };
 		0B11CC331FB8406A003C9C4E /* JQTableListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11CC2A1FB8406A003C9C4E /* JQTableListDataSource.swift */; };
 		0B11CC341FB8406A003C9C4E /* JQTableListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11CC2B1FB8406A003C9C4E /* JQTableListModel.swift */; };
 		0B11CC351FB8406A003C9C4E /* JQTableListSectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11CC2D1FB8406A003C9C4E /* JQTableListSectionItem.swift */; };
 		0B11CC361FB8406A003C9C4E /* JQTableListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11CC2E1FB8406A003C9C4E /* JQTableListItem.swift */; };
 		0B11CC371FB8406A003C9C4E /* JQTableListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11CC301FB8406A003C9C4E /* JQTableListCell.swift */; };
-		0B11CC381FB8406A003C9C4E /* JQSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11CC311FB8406A003C9C4E /* JQSectionView.swift */; };
+		0B11CC381FB8406A003C9C4E /* JQTableSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11CC311FB8406A003C9C4E /* JQTableSectionView.swift */; };
 		0B11CC461FB84074003C9C4E /* JQDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11CC3B1FB84074003C9C4E /* JQDemoController.swift */; };
 		0B11CC471FB84074003C9C4E /* JQDemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11CC3D1FB84074003C9C4E /* JQDemoModel.swift */; };
 		0B11CC481FB84074003C9C4E /* JQDemoSectionHeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11CC3F1FB84074003C9C4E /* JQDemoSectionHeaderItem.swift */; };
@@ -59,41 +59,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		080A679B1FBADCF00098AD59 /* KCTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCTableModel.swift; sourceTree = "<group>"; };
-		080A679D1FBADE0D0098AD59 /* KCTableVCL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCTableVCL.swift; sourceTree = "<group>"; };
-		080A67A01FBAFB320098AD59 /* KCNetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCNetRequest.swift; sourceTree = "<group>"; };
+		080A679B1FBADCF00098AD59 /* JQTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQTableModel.swift; sourceTree = "<group>"; };
+		080A679D1FBADE0D0098AD59 /* JQTableVCL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQTableVCL.swift; sourceTree = "<group>"; };
+		080A67A01FBAFB320098AD59 /* JQNetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQNetRequest.swift; sourceTree = "<group>"; };
 		080A67A11FBAFB320098AD59 /* NetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetRequest.swift; sourceTree = "<group>"; };
-		080A67A41FBB02A40098AD59 /* KCNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCNetworkService.swift; sourceTree = "<group>"; };
+		080A67A41FBB02A40098AD59 /* JQNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQNetworkService.swift; sourceTree = "<group>"; };
 		080A67A71FBB06C10098AD59 /* ClassDetailResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassDetailResponse.swift; sourceTree = "<group>"; };
-		080A67A91FBB073D0098AD59 /* KCNetBaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCNetBaseResponse.swift; sourceTree = "<group>"; };
-		08ABBE831FBBE3250011CA78 /* KCTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCTableCell.swift; sourceTree = "<group>"; };
+		080A67A91FBB073D0098AD59 /* JQNetBaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQNetBaseResponse.swift; sourceTree = "<group>"; };
+		08ABBE831FBBE3250011CA78 /* JQTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQTableCell.swift; sourceTree = "<group>"; };
 		08ABBE9B1FBC3BB00011CA78 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		08ABBEA31FBD350F0011CA78 /* KCCourseListVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCourseListVCL.swift; sourceTree = "<group>"; };
-		08ABBEA61FBD350F0011CA78 /* KCCourseListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCourseListItem.swift; sourceTree = "<group>"; };
-		08ABBEA71FBD350F0011CA78 /* KCCourseListSectionHeaderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCourseListSectionHeaderItem.swift; sourceTree = "<group>"; };
-		08ABBEA81FBD350F0011CA78 /* KCCourseListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCourseListModel.swift; sourceTree = "<group>"; };
-		08ABBEAB1FBD350F0011CA78 /* KCCourseListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCourseListCell.swift; sourceTree = "<group>"; };
-		08ABBEAD1FBD350F0011CA78 /* KCCourseListHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCourseListHeaderView.swift; sourceTree = "<group>"; };
-		08ABBEAE1FBD350F0011CA78 /* KCCourseListSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCCourseListSectionHeaderView.swift; sourceTree = "<group>"; };
-		08ABBEB61FBD353E0011CA78 /* KCUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCUtils.swift; sourceTree = "<group>"; };
-		08ABBEC11FBD41190011CA78 /* KCCourseDetailVCL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCCourseDetailVCL.swift; sourceTree = "<group>"; };
-		08ABBEC31FBD41400011CA78 /* KCCourseDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCCourseDetailModel.swift; sourceTree = "<group>"; };
-		08ABBEC51FBD41AB0011CA78 /* KCCourseDetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCCourseDetailItem.swift; sourceTree = "<group>"; };
-		08ABBEC71FBD41D40011CA78 /* KCCourseDetailSectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCCourseDetailSectionItem.swift; sourceTree = "<group>"; };
-		08ABBEC91FBD41F20011CA78 /* KCCourseDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCCourseDetailCell.swift; sourceTree = "<group>"; };
-		08ABBECB1FBD42160011CA78 /* KCCourseDetailSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCCourseDetailSectionView.swift; sourceTree = "<group>"; };
-		08ABBECD1FBD423E0011CA78 /* KCCouseDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCCouseDetailHeaderView.swift; sourceTree = "<group>"; };
-		08ABBECF1FBD86590011CA78 /* KCCourseDetailVo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCCourseDetailVo.swift; sourceTree = "<group>"; };
-		08ABBED11FBD96980011CA78 /* KCCourseLessonsVo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCCourseLessonsVo.swift; sourceTree = "<group>"; };
-		08ABBED31FBD9F800011CA78 /* KCCourseDetailGroupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCCourseDetailGroupItem.swift; sourceTree = "<group>"; };
-		08ABBED51FBDA0230011CA78 /* KCCourseDetailGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCCourseDetailGroupCell.swift; sourceTree = "<group>"; };
+		08ABBEA31FBD350F0011CA78 /* JQCourseListVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQCourseListVCL.swift; sourceTree = "<group>"; };
+		08ABBEA61FBD350F0011CA78 /* JQCourseListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQCourseListItem.swift; sourceTree = "<group>"; };
+		08ABBEA71FBD350F0011CA78 /* JQCourseListSectionHeaderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQCourseListSectionHeaderItem.swift; sourceTree = "<group>"; };
+		08ABBEA81FBD350F0011CA78 /* JQCourseListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQCourseListModel.swift; sourceTree = "<group>"; };
+		08ABBEAB1FBD350F0011CA78 /* JQCourseListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQCourseListCell.swift; sourceTree = "<group>"; };
+		08ABBEAD1FBD350F0011CA78 /* JQCourseListHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQCourseListHeaderView.swift; sourceTree = "<group>"; };
+		08ABBEAE1FBD350F0011CA78 /* JQCourseListSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQCourseListSectionHeaderView.swift; sourceTree = "<group>"; };
+		08ABBEB61FBD353E0011CA78 /* JQUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQUtils.swift; sourceTree = "<group>"; };
+		08ABBEC11FBD41190011CA78 /* JQCourseDetailVCL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQCourseDetailVCL.swift; sourceTree = "<group>"; };
+		08ABBEC31FBD41400011CA78 /* JQCourseDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQCourseDetailModel.swift; sourceTree = "<group>"; };
+		08ABBEC51FBD41AB0011CA78 /* JQCourseDetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQCourseDetailItem.swift; sourceTree = "<group>"; };
+		08ABBEC71FBD41D40011CA78 /* JQCourseDetailSectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQCourseDetailSectionItem.swift; sourceTree = "<group>"; };
+		08ABBEC91FBD41F20011CA78 /* JQCourseDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQCourseDetailCell.swift; sourceTree = "<group>"; };
+		08ABBECB1FBD42160011CA78 /* JQCourseDetailSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQCourseDetailSectionView.swift; sourceTree = "<group>"; };
+		08ABBECD1FBD423E0011CA78 /* JQCouseDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQCouseDetailHeaderView.swift; sourceTree = "<group>"; };
+		08ABBECF1FBD86590011CA78 /* JQCourseDetailVo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQCourseDetailVo.swift; sourceTree = "<group>"; };
+		08ABBED11FBD96980011CA78 /* JQCourseLessonsVo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQCourseLessonsVo.swift; sourceTree = "<group>"; };
+		08ABBED31FBD9F800011CA78 /* JQCourseDetailGroupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQCourseDetailGroupItem.swift; sourceTree = "<group>"; };
+		08ABBED51FBDA0230011CA78 /* JQCourseDetailGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQCourseDetailGroupCell.swift; sourceTree = "<group>"; };
 		0B11CC271FB8406A003C9C4E /* JQTableListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQTableListController.swift; sourceTree = "<group>"; };
 		0B11CC2A1FB8406A003C9C4E /* JQTableListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQTableListDataSource.swift; sourceTree = "<group>"; };
 		0B11CC2B1FB8406A003C9C4E /* JQTableListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQTableListModel.swift; sourceTree = "<group>"; };
 		0B11CC2D1FB8406A003C9C4E /* JQTableListSectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQTableListSectionItem.swift; sourceTree = "<group>"; };
 		0B11CC2E1FB8406A003C9C4E /* JQTableListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQTableListItem.swift; sourceTree = "<group>"; };
 		0B11CC301FB8406A003C9C4E /* JQTableListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQTableListCell.swift; sourceTree = "<group>"; };
-		0B11CC311FB8406A003C9C4E /* JQSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQSectionView.swift; sourceTree = "<group>"; };
+		0B11CC311FB8406A003C9C4E /* JQTableSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQTableSectionView.swift; sourceTree = "<group>"; };
 		0B11CC3B1FB84074003C9C4E /* JQDemoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQDemoController.swift; sourceTree = "<group>"; };
 		0B11CC3D1FB84074003C9C4E /* JQDemoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQDemoModel.swift; sourceTree = "<group>"; };
 		0B11CC3F1FB84074003C9C4E /* JQDemoSectionHeaderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQDemoSectionHeaderItem.swift; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		080A67941FBADA930098AD59 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				080A679D1FBADE0D0098AD59 /* KCTableVCL.swift */,
+				080A679D1FBADE0D0098AD59 /* JQTableVCL.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 		080A67951FBADA930098AD59 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				080A679B1FBADCF00098AD59 /* KCTableModel.swift */,
+				080A679B1FBADCF00098AD59 /* JQTableModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 			children = (
 				080A67A61FBB06C10098AD59 /* Respose */,
 				080A679F1FBAFB320098AD59 /* KCNetWork */,
-				080A67A41FBB02A40098AD59 /* KCNetworkService.swift */,
+				080A67A41FBB02A40098AD59 /* JQNetworkService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 		080A67981FBADA930098AD59 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				08ABBE831FBBE3250011CA78 /* KCTableCell.swift */,
+				08ABBE831FBBE3250011CA78 /* JQTableCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 		080A679F1FBAFB320098AD59 /* KCNetWork */ = {
 			isa = PBXGroup;
 			children = (
-				080A67A01FBAFB320098AD59 /* KCNetRequest.swift */,
+				080A67A01FBAFB320098AD59 /* JQNetRequest.swift */,
 				080A67A11FBAFB320098AD59 /* NetRequest.swift */,
 			);
 			path = KCNetWork;
@@ -183,7 +183,7 @@
 		080A67A61FBB06C10098AD59 /* Respose */ = {
 			isa = PBXGroup;
 			children = (
-				080A67A91FBB073D0098AD59 /* KCNetBaseResponse.swift */,
+				080A67A91FBB073D0098AD59 /* JQNetBaseResponse.swift */,
 				080A67A71FBB06C10098AD59 /* ClassDetailResponse.swift */,
 			);
 			path = Respose;
@@ -202,7 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				08ABBE9B1FBC3BB00011CA78 /* UIColorExtension.swift */,
-				08ABBEB61FBD353E0011CA78 /* KCUtils.swift */,
+				08ABBEB61FBD353E0011CA78 /* JQUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -220,7 +220,7 @@
 		08ABBEA21FBD350F0011CA78 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				08ABBEA31FBD350F0011CA78 /* KCCourseListVCL.swift */,
+				08ABBEA31FBD350F0011CA78 /* JQCourseListVCL.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				08ABBEA51FBD350F0011CA78 /* Items */,
-				08ABBEA81FBD350F0011CA78 /* KCCourseListModel.swift */,
+				08ABBEA81FBD350F0011CA78 /* JQCourseListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -237,8 +237,8 @@
 		08ABBEA51FBD350F0011CA78 /* Items */ = {
 			isa = PBXGroup;
 			children = (
-				08ABBEA61FBD350F0011CA78 /* KCCourseListItem.swift */,
-				08ABBEA71FBD350F0011CA78 /* KCCourseListSectionHeaderItem.swift */,
+				08ABBEA61FBD350F0011CA78 /* JQCourseListItem.swift */,
+				08ABBEA71FBD350F0011CA78 /* JQCourseListSectionHeaderItem.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 		08ABBEAA1FBD350F0011CA78 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				08ABBEAB1FBD350F0011CA78 /* KCCourseListCell.swift */,
+				08ABBEAB1FBD350F0011CA78 /* JQCourseListCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -263,8 +263,8 @@
 		08ABBEAC1FBD350F0011CA78 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				08ABBEAD1FBD350F0011CA78 /* KCCourseListHeaderView.swift */,
-				08ABBEAE1FBD350F0011CA78 /* KCCourseListSectionHeaderView.swift */,
+				08ABBEAD1FBD350F0011CA78 /* JQCourseListHeaderView.swift */,
+				08ABBEAE1FBD350F0011CA78 /* JQCourseListSectionHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 		08ABBEBA1FBD40FC0011CA78 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				08ABBEC11FBD41190011CA78 /* KCCourseDetailVCL.swift */,
+				08ABBEC11FBD41190011CA78 /* JQCourseDetailVCL.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				08ABBEBC1FBD40FC0011CA78 /* Items */,
-				08ABBEC31FBD41400011CA78 /* KCCourseDetailModel.swift */,
+				08ABBEC31FBD41400011CA78 /* JQCourseDetailModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -300,9 +300,9 @@
 		08ABBEBC1FBD40FC0011CA78 /* Items */ = {
 			isa = PBXGroup;
 			children = (
-				08ABBEC51FBD41AB0011CA78 /* KCCourseDetailItem.swift */,
-				08ABBEC71FBD41D40011CA78 /* KCCourseDetailSectionItem.swift */,
-				08ABBED31FBD9F800011CA78 /* KCCourseDetailGroupItem.swift */,
+				08ABBEC51FBD41AB0011CA78 /* JQCourseDetailItem.swift */,
+				08ABBEC71FBD41D40011CA78 /* JQCourseDetailSectionItem.swift */,
+				08ABBED31FBD9F800011CA78 /* JQCourseDetailGroupItem.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -310,8 +310,8 @@
 		08ABBEBD1FBD40FC0011CA78 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				08ABBECF1FBD86590011CA78 /* KCCourseDetailVo.swift */,
-				08ABBED11FBD96980011CA78 /* KCCourseLessonsVo.swift */,
+				08ABBECF1FBD86590011CA78 /* JQCourseDetailVo.swift */,
+				08ABBED11FBD96980011CA78 /* JQCourseLessonsVo.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -328,8 +328,8 @@
 		08ABBEBF1FBD40FC0011CA78 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				08ABBEC91FBD41F20011CA78 /* KCCourseDetailCell.swift */,
-				08ABBED51FBDA0230011CA78 /* KCCourseDetailGroupCell.swift */,
+				08ABBEC91FBD41F20011CA78 /* JQCourseDetailCell.swift */,
+				08ABBED51FBDA0230011CA78 /* JQCourseDetailGroupCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -337,8 +337,8 @@
 		08ABBEC01FBD40FC0011CA78 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				08ABBECB1FBD42160011CA78 /* KCCourseDetailSectionView.swift */,
-				08ABBECD1FBD423E0011CA78 /* KCCouseDetailHeaderView.swift */,
+				08ABBECB1FBD42160011CA78 /* JQCourseDetailSectionView.swift */,
+				08ABBECD1FBD423E0011CA78 /* JQCouseDetailHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -392,7 +392,7 @@
 			isa = PBXGroup;
 			children = (
 				0B11CC301FB8406A003C9C4E /* JQTableListCell.swift */,
-				0B11CC311FB8406A003C9C4E /* JQSectionView.swift */,
+				0B11CC311FB8406A003C9C4E /* JQTableSectionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -632,51 +632,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08ABBECC1FBD42160011CA78 /* KCCourseDetailSectionView.swift in Sources */,
+				08ABBECC1FBD42160011CA78 /* JQCourseDetailSectionView.swift in Sources */,
 				0B3B88831FB80D4E00A1FF59 /* ViewController.swift in Sources */,
-				08ABBEB71FBD353E0011CA78 /* KCUtils.swift in Sources */,
-				080A67AA1FBB073D0098AD59 /* KCNetBaseResponse.swift in Sources */,
+				08ABBEB71FBD353E0011CA78 /* JQUtils.swift in Sources */,
+				080A67AA1FBB073D0098AD59 /* JQNetBaseResponse.swift in Sources */,
 				0B11CC461FB84074003C9C4E /* JQDemoController.swift in Sources */,
-				08ABBEB01FBD350F0011CA78 /* KCCourseListItem.swift in Sources */,
-				08ABBED01FBD86590011CA78 /* KCCourseDetailVo.swift in Sources */,
-				08ABBEB31FBD350F0011CA78 /* KCCourseListCell.swift in Sources */,
+				08ABBEB01FBD350F0011CA78 /* JQCourseListItem.swift in Sources */,
+				08ABBED01FBD86590011CA78 /* JQCourseDetailVo.swift in Sources */,
+				08ABBEB31FBD350F0011CA78 /* JQCourseListCell.swift in Sources */,
 				080A67A31FBAFB320098AD59 /* NetRequest.swift in Sources */,
-				08ABBECA1FBD41F20011CA78 /* KCCourseDetailCell.swift in Sources */,
-				08ABBEC41FBD41400011CA78 /* KCCourseDetailModel.swift in Sources */,
-				08ABBEAF1FBD350F0011CA78 /* KCCourseListVCL.swift in Sources */,
+				08ABBECA1FBD41F20011CA78 /* JQCourseDetailCell.swift in Sources */,
+				08ABBEC41FBD41400011CA78 /* JQCourseDetailModel.swift in Sources */,
+				08ABBEAF1FBD350F0011CA78 /* JQCourseListVCL.swift in Sources */,
 				0B11CC351FB8406A003C9C4E /* JQTableListSectionItem.swift in Sources */,
-				080A679C1FBADCF00098AD59 /* KCTableModel.swift in Sources */,
-				080A679E1FBADE0D0098AD59 /* KCTableVCL.swift in Sources */,
+				080A679C1FBADCF00098AD59 /* JQTableModel.swift in Sources */,
+				080A679E1FBADE0D0098AD59 /* JQTableVCL.swift in Sources */,
 				0B11CC4B1FB84074003C9C4E /* JQSectionHeaderView.swift in Sources */,
 				0B3B88811FB80D4E00A1FF59 /* AppDelegate.swift in Sources */,
 				0B11CC471FB84074003C9C4E /* JQDemoModel.swift in Sources */,
-				08ABBED41FBD9F800011CA78 /* KCCourseDetailGroupItem.swift in Sources */,
-				08ABBEB51FBD350F0011CA78 /* KCCourseListSectionHeaderView.swift in Sources */,
+				08ABBED41FBD9F800011CA78 /* JQCourseDetailGroupItem.swift in Sources */,
+				08ABBEB51FBD350F0011CA78 /* JQCourseListSectionHeaderView.swift in Sources */,
 				080A67A81FBB06C10098AD59 /* ClassDetailResponse.swift in Sources */,
-				08ABBEB11FBD350F0011CA78 /* KCCourseListSectionHeaderItem.swift in Sources */,
+				08ABBEB11FBD350F0011CA78 /* JQCourseListSectionHeaderItem.swift in Sources */,
 				0B11CC4A1FB84074003C9C4E /* JQDemoSectionFooterItem.swift in Sources */,
 				0B11CC4D1FB84074003C9C4E /* JQSectionFooterView.swift in Sources */,
 				0B11CC481FB84074003C9C4E /* JQDemoSectionHeaderItem.swift in Sources */,
 				0B11CC341FB8406A003C9C4E /* JQTableListModel.swift in Sources */,
 				08ABBE9C1FBC3BB00011CA78 /* UIColorExtension.swift in Sources */,
-				08ABBEC61FBD41AB0011CA78 /* KCCourseDetailItem.swift in Sources */,
+				08ABBEC61FBD41AB0011CA78 /* JQCourseDetailItem.swift in Sources */,
 				0B11CC331FB8406A003C9C4E /* JQTableListDataSource.swift in Sources */,
-				080A67A51FBB02A40098AD59 /* KCNetworkService.swift in Sources */,
-				08ABBEC21FBD41190011CA78 /* KCCourseDetailVCL.swift in Sources */,
-				08ABBEB41FBD350F0011CA78 /* KCCourseListHeaderView.swift in Sources */,
+				080A67A51FBB02A40098AD59 /* JQNetworkService.swift in Sources */,
+				08ABBEC21FBD41190011CA78 /* JQCourseDetailVCL.swift in Sources */,
+				08ABBEB41FBD350F0011CA78 /* JQCourseListHeaderView.swift in Sources */,
 				0B11CC321FB8406A003C9C4E /* JQTableListController.swift in Sources */,
-				08ABBED61FBDA0230011CA78 /* KCCourseDetailGroupCell.swift in Sources */,
+				08ABBED61FBDA0230011CA78 /* JQCourseDetailGroupCell.swift in Sources */,
 				0B11CC4C1FB84074003C9C4E /* JQDemoCell.swift in Sources */,
 				0B11CC491FB84074003C9C4E /* JQDemoItem.swift in Sources */,
-				0B11CC381FB8406A003C9C4E /* JQSectionView.swift in Sources */,
+				0B11CC381FB8406A003C9C4E /* JQTableSectionView.swift in Sources */,
 				0B11CC361FB8406A003C9C4E /* JQTableListItem.swift in Sources */,
 				0B11CC371FB8406A003C9C4E /* JQTableListCell.swift in Sources */,
-				08ABBE841FBBE3250011CA78 /* KCTableCell.swift in Sources */,
-				08ABBEB21FBD350F0011CA78 /* KCCourseListModel.swift in Sources */,
-				08ABBEC81FBD41D40011CA78 /* KCCourseDetailSectionItem.swift in Sources */,
-				08ABBED21FBD96980011CA78 /* KCCourseLessonsVo.swift in Sources */,
-				08ABBECE1FBD423E0011CA78 /* KCCouseDetailHeaderView.swift in Sources */,
-				080A67A21FBAFB320098AD59 /* KCNetRequest.swift in Sources */,
+				08ABBE841FBBE3250011CA78 /* JQTableCell.swift in Sources */,
+				08ABBEB21FBD350F0011CA78 /* JQCourseListModel.swift in Sources */,
+				08ABBEC81FBD41D40011CA78 /* JQCourseDetailSectionItem.swift in Sources */,
+				08ABBED21FBD96980011CA78 /* JQCourseLessonsVo.swift in Sources */,
+				08ABBECE1FBD423E0011CA78 /* JQCouseDetailHeaderView.swift in Sources */,
+				080A67A21FBAFB320098AD59 /* JQNetRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

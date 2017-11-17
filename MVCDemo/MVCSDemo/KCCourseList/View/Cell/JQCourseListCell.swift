@@ -1,14 +1,14 @@
 //
-//  KCCourseDetailCell.swift
+//  JQCourseListCell.swift
 //  MVCDemo
 //
-//  Created by 李佳琪 on 2017/11/16.
+//  Created by 李佳琪 on 2017/11/15.
 //  Copyright © 2017年 lijiaqi. All rights reserved.
 //
 
 import UIKit
 
-class KCCourseDetailCell: KCTableCell {
+class JQCourseListCell: JQTableCell {
 
     var titleLabel: UILabel!
     var dateLabel: UILabel!
@@ -17,13 +17,13 @@ class KCCourseDetailCell: KCTableCell {
     var imageIcon: UIImageView!
     
     open override class func cellIdentifier() -> String{
-        return "KCCourseListCell"
+        return "JQCourseListCell"
     }
-    
+
     override func setObject(_ obj: JQTableListItem) {
         super.setObject(obj)
         
-        if let item = obj as? KCCourseListItem {
+        if let item = obj as? JQCourseListItem {
             titleLabel.text = item.titleStr
             dateLabel.text = item.dateStr
             subTitleLabel.text = item.subTitleStr
@@ -96,5 +96,4 @@ class KCCourseDetailCell: KCTableCell {
         titleLabel.textColor = UIColor.init(red: 56/255.0, green: 54/255.0, blue: 50/255.0, alpha: 1.0)
         titleLabel.font = UIFont.systemFont(ofSize: 17)
     }
-
 }

@@ -1,5 +1,5 @@
 //
-//  KCUtils.swift
+//  JQUtils.swift
 //  MVCDemo
 //
 //  Created by 李佳琪 on 2017/11/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KCUtils: NSObject {
+class JQUtils: NSObject {
     class func dateFormatFromTimeStamp(timeStamp :TimeInterval) -> String {
         
         //转换为时间

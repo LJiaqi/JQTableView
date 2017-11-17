@@ -27,6 +27,7 @@ class JQDemoModel: JQTableListModel {
         }
         self.items = cellItems
     }
+    
     //有section
     func wrapperSectionItems() {
         var cellItems: [JQDemoItem] = []

@@ -1,5 +1,5 @@
 //
-//  KCCourseLessonsVo.swift
+//  JQCourseLessonsVo.swift
 //  MVCDemo
 //
 //  Created by 李佳琪 on 2017/11/16.
@@ -9,7 +9,7 @@
 import UIKit
 import ObjectMapper
 
-class KCCourseLessonsVo: Mappable {
+class JQCourseLessonsVo: Mappable {
     var stime :NSNumber?
     var list :[Group] = [Group]()
     
